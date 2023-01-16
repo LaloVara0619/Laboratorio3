@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+@media (max-width: 480px) {
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+nav{
+  text-align: left;
+  background-color: grey;
+  margin-left: 5px;
+}
+
+ul{
+  list-style: none;
+}
+
+.hamburger{
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.menu{
+  display: none;
+}
+
+.product{
+  border-top: 2px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  text-align: center;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+}
+
+/* Ipad */
+@media(min-width: 768px) and (max-width: 1024px){
+
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+  
+  nav{
+    text-align: left;
+    background-color: grey;
+    margin-left: 5px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .hamburger{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+  
+  .menu{
+    display: none;
+  }
+  
+  .product{
+    border-top: 2px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+}
+
+/* Large Screem */
+@media (min-width: 1281px) { 
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+  
+  nav{
+    text-align: right;
+    background-color: gray;
+    margin-left: 10px;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  .hamburger{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    color: grey;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .main{
+    display: flex;
+    justify-content: center;
+  }
+
+  .product{
+    border-top: 2px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+
+  p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+}
